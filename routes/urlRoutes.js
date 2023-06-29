@@ -33,19 +33,19 @@ function validateRequest(req, res, next) {
  *                       id:
  *                         type: string
  *                         description: The URL ID.
- *                         example: 472424sdvnsef2rv87
+ *                         example: 294567ghtdfes5yz81
  *                       full:
  *                         type: string
  *                         description: The long URL.
- *                         example: https://scissor-nkj9.onrender.com/
+ *                         example: https://url-shortener-st5z.onrender.com/
  *                       short:
  *                         type: string
  *                         description: The short URL.
- *                         example: 3jee4890
+ *                         example: 5jkk3216
  *                       click:
  *                         type: number
  *                         description: The number of clicks.
- *                         example: 2
+ *                         example: 3
  */
 router.get('/url', getShortUrls);
 
@@ -71,19 +71,19 @@ router.get('/url', getShortUrls);
  *                       id:
  *                         type: string
  *                         description: The URL ID.
- *                         example: 472424sdvnsef2rv87
+ *                         example: 294567ghtdfes5yz81
  *                       full:
  *                         type: string
  *                         description: The long URL.
- *                         example: https://scissor-nkj9.onrender.com/
+ *                         example: https://url-shortener-st5z.onrender.com/
  *                       short:
  *                         type: string
  *                         description: The short URL.
- *                         example: 3jee4890
+ *                         example: 5jkk3216
  *                       click:
  *                         type: number
  *                         description: The number of clicks.
- *                         example: 0
+ *                         example: 1
  */
  router.post('/shortUrls', validateRequest, createShortUrl);
 
@@ -109,15 +109,15 @@ router.get('/url', getShortUrls);
  *                       id:
  *                         type: string
  *                         description: The URL ID.
- *                         example: 472424sdvnsef2rv87
+ *                         example: 294567ghtdfes5yz81
  *                       full:
  *                         type: string
  *                         description: The long URL.
- *                         example: https://scissor-nkj9.onrender.com/
+ *                         example: https://url-shortener-st5z.onrender.com/
  *                       short:
  *                         type: string
  *                         description: The short URL.
- *                         example: 3jee4890
+ *                         example: 5jkk3216
  *                       click:
  *                         type: number
  *                         description: The number of clicks.
@@ -147,7 +147,7 @@ router.get('/url', getShortUrls);
  *                       id:
  *                         type: string
  *                         description: The QR code ID.
- *                         example: 472424sdvnsef2rv87
+ *                         example: 294567ghtdfes5yz81
  *                       full:
  *                         type: string
  *                         description: The long URL.

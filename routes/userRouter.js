@@ -23,7 +23,7 @@ const userRouter = express.Router();
  *                     id:
  *                       type: integer
  *                       description: The user ID.
- *                       example: 6e3u142kmqmnwemqnwmn
+ *                       example: 456789abcdefgh3ab28
  *                     firstName:
  *                       type: string
  *                       description: The user's firstName.
@@ -63,7 +63,7 @@ userRouter.post('/register', register);
  *                     id:
  *                       type: integer
  *                       description: The user ID.
- *                       example: 6e3u142kmqmnwemqnwmn
+ *                       example: 456789abcdefgh3ab28
  *                     email:
  *                       type: string
  *                       description: The user's email.

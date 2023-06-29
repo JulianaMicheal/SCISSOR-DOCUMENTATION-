@@ -4,7 +4,7 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Shortly API Documentation',
+      title: 'Scissor API Documentation',
       version: '1.0.0',
       description:'This is a REST API application made with express.',
       license:{
@@ -12,14 +12,14 @@ const options = {
         url:"https://github.com/JulianaMicheal/JulianaMicheal"
     },
     contact:{
-        name: 'scissor',
-        url: 'https://scissor-nkj9.onrender.com/',
+        name: 'url-shortener',
+        url: 'https://url-shortener-st5z.onrender.com',
     },
     },
     servers: [
         {
-          url: 'https://scissor-nkj9.onrender.com/',
-          description: 'scissor',
+          url: 'https://url-shortener-st5z.onrender.com',
+          description: 'url-shortener',
         },
       ],
   },
