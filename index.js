@@ -16,9 +16,9 @@ const PORT = 3000
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 
-// app.get('/', (req, res) => {
-//     res.send('Welcome to the API!');
-//   });
+app.get('/', (req, res) => {
+    res.send('Welcome to the API!');
+  });
   
 
 app.listen(PORT , () => {
