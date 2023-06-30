@@ -13,12 +13,12 @@ const options = {
     },
     contact:{
         name: 'url-shortener',
-        url: 'https://url-shortener-st5z.onrender.com',
+        url: 'https://url-shortened-38sv.onrender.com',
     },
     },
     servers: [
         {
-          url: 'https://url-shortener-st5z.onrender.com',
+          url: 'https://url-shortener-38sv.onrender.com',
           description: 'url-shortener',
         },
       ],
