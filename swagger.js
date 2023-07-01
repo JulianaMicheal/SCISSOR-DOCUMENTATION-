@@ -12,7 +12,7 @@ const options = {
         url:"https://github.com/JulianaMicheal/JulianaMicheal"
     },
     contact:{
-        name: 'url-shortener',
+        name: 'URL-shortener',
         url: 'https://url-shortened-38sv.onrender.com',
     },
     },
