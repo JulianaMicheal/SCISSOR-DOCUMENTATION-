@@ -37,7 +37,7 @@ function validateRequest(req, res, next) {
  *                       full:
  *                         type: string
  *                         description: The long URL.
- *                         example: https://url-shortener-st5z.onrender.com/
+ *                         example: https://url-shortened-38sv.onrender.com
  *                       short:
  *                         type: string
  *                         description: The short URL.
@@ -75,7 +75,7 @@ router.get('/url', getShortUrls);
  *                       full:
  *                         type: string
  *                         description: The long URL.
- *                         example: https://url-shortener-st5z.onrender.com/
+ *                         example: https://url-shortened-38sv.onrender.com
  *                       short:
  *                         type: string
  *                         description: The short URL.
@@ -113,7 +113,7 @@ router.get('/url', getShortUrls);
  *                       full:
  *                         type: string
  *                         description: The long URL.
- *                         example: https://url-shortener-st5z.onrender.com/
+ *                         example: https://url-shortened-38sv.onrender.com
  *                       short:
  *                         type: string
  *                         description: The short URL.
